@@ -171,6 +171,7 @@ body {
 .footer {
     background-color: #3e454d;
     width: 100%;
+    min-width: 1300px;
     float: left;
     height: 140px;
     text-align: center;
