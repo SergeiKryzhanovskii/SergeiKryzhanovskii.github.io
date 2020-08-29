@@ -26,7 +26,8 @@ body {
 
 .center {
     width: 1300px;
-    margin: 0 auto;
+	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .header a {
@@ -39,6 +40,10 @@ body {
     line-height: 30px;
     display: inline-block;
     padding-right: 40px;
+}
+
+.header a:hover {
+	color: black;
 }
 
 .header span {
@@ -58,8 +63,8 @@ body {
     color: #2e353d;
     font-size: 40px;
     font-weight: 300;
-    margin-top: 63px;
-    margin-bottom: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .content h3 {
@@ -83,17 +88,60 @@ body {
     border-radius: 50%;
 }
 
+.content #view {
+	width: 600px;
+	border-radius: 0;
+	padding: 40px 0px 40px 0px;
+}
+
+.content #hh {
+	width: 600px;
+	border-radius: 0;
+	padding: 20px 0px 40px 0px;
+}
+
+.content #bot {
+	width: 389px;
+	border-radius: 0%;
+	padding: 0px 0px 40px 100px;
+}
+
+.content #tic {
+	width: 600px;
+	border-radius: 0;
+	padding: 60px 0px 60px 0px;
+}
+
 .content .box_text {
-    width: 671px;
+	width: 671px;
+	height: 300px;
     background-color: #ffffff;
     float: right;
-    padding: 49px 48px 51px 76px;
-    margin-bottom: 100px;
+    padding: 49px 48px 50px 76px;
+}
+
+.content .description {
+	width: 500px;
+	height: 300px;
+    background-color: #ffffff;
+    float: right;
+    padding: 49px 48px 40px 76px;
+}
+
+ul {
+	font-family: 'Roboto', sans-serif;
+	color:  #242424;
+    font-size: 20px;
+    text-align: left;
+}
+
+#book {
+	font-size: 20px;
 }
 
 .content .box_text p {
     color: #242424;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 100;
     text-align: left;
     margin-bottom: 31px;
